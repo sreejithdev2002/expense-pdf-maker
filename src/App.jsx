@@ -416,6 +416,12 @@ const App = () => {
       <button onClick={downloadPDF}>
         Download PDF <FaDownload />
       </button>
+
+      <div className="footer">
+        <div className="footer-content">
+          Made by <span className="owner-name">Sreejith Dev</span>
+        </div>
+      </div>
     </div>
   );
 };
