@@ -368,6 +368,7 @@ const App = () => {
         <input
           type="date"
           value={eventDate}
+          placeholder="dd-mm-yyyy"
           onChange={(e) => setEventDate(e.target.value)}
         />
         <input
